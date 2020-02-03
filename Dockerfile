@@ -24,7 +24,7 @@ WORKDIR ${GUACAMOLE_HOME}
 RUN apt-get update && apt-get install -y \
     libcairo2-dev libjpeg62-turbo-dev libpng-dev \
     libossp-uuid-dev libavcodec-dev libavutil-dev \
-    libswscale-dev libfreerdp-dev libpango1.0-dev \
+    libswscale-dev freerdp2-dev libpango1.0-dev \
     libssh2-1-dev libtelnet-dev libvncserver-dev \
     libpulse-dev libssl-dev libvorbis-dev libwebp-dev \
     ghostscript postgresql-${PG_MAJOR} \
